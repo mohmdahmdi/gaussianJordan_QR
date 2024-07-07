@@ -40,7 +40,7 @@ B = np.array(B)
 
 x, error_norm, Q, R = least_squares_qr(A, B)
 
-print("the lest squares answer:")
+print("the least squares answer:")
 print(x)
 print("error norm:")
 print(error_norm)

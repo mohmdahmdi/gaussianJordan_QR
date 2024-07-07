@@ -62,6 +62,6 @@ if linalg.det(A) == 0 :
 else :
   answer = gaussian_jordan(A, B)
   Inverse = gaussian_jordan_inverse(A)
-  print(answer)
-  print(Inverse)
+  print("x = ",answer)
+  print("A Inverse = ", Inverse)
 

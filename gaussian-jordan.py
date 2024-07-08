@@ -1,4 +1,4 @@
-from numpy import linalg
+from numpy import linalg , matrix
 
 def gaussian_jordan(A, B):
   size = len(A)
@@ -62,6 +62,6 @@ if linalg.det(A) == 0 :
 else :
   answer = gaussian_jordan(A, B)
   Inverse = gaussian_jordan_inverse(A)
-  print("x = ",answer)
-  print("A Inverse = ", Inverse)
+  print("x = ","\n" ,matrix(answer))
+  print("A Inverse = ", "\n", matrix(Inverse))
 
